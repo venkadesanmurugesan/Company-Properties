@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+        }
+        .first_row{
+            height: 600px;
+            background: linear-gradient(rgba(8, 20, 90, 0.651),rgba(76, 100, 236, 0.452)), url(img/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .second_row{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 70px;
+        }
+        .second_row div{
+            width: 350px;
+            height: 500px;
+        }
+        .second_row .div_1{
+            border: 1px solid gray;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .second_row div img{
+            object-fit: cover;
+        }
+        .third_row .image_div{
+            width: 250px;
+            height: 300px;
+        }
+        .fourth_row{
+            background: #FFF5DA;
+            padding: 55px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .fourth_row .input_div input::placeholder{
+            float: right;
+            background-color: yellow;
+            color: black;
+            font-size: small;
+            padding: 8px;
+        }
+        .image_div div{
+            width: 200px;
+            height: 300px;
+        }
+        .sixth_row a:hover{
+            text-decoration: none;
+        }
+        .sixth_row_img div{
+            width: 150px;
+            height: 270px;
+        }
+        .sixth_row_img div img{
+            object-fit: cover;
+        }
+        footer{
+            background: #093A7A;
+            height: 480px;
+            width: 100%;
+            padding: 20px;
+        }
+        footer a{
+            text-decoration: none;
+            color: rgb(206, 202, 202);
+            font-size: small;
+            margin-left: 10px;
+        }
+        footer a:hover{
+            text-decoration: none;
+            color: rgb(206, 202, 202);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+<div class="">
+    <div class="first_row row p-5">
+        <div class="col-7">
+            <p class="text-uppercase text-light font-weight-bold small">hous<span class="text-warning">esale</span></p>
+        </div>
+        <div class="col-lg-5">
+            <a class="text-decoration-none text-light small mr-5" href="#">On sale</a>
+            <a class="text-decoration-none text-light small mr-5" href="#">For rent</a>
+            <a class="text-decoration-none text-light small mr-5" href="#">New residential Project</a>
+            <a class="text-decoration-none text-light small mr-2" href="#">Property news</a>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-10">
+                <p class="h2 text-light text-capitalize font-weight-bold">quality home services, on demand</p>
+                <p class="text-light text-capitalize mt-5">experienced,hand-picked professionals to serve you at your doorstep</p>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="second_row">
+        <div class="div_1 bg-warning">
+            <img width="100%" height="73%" src="img/jason-briscoe-UV81E0oXXWQ-unsplash 1.png" alt="jasonImg">
+            <p class="align-items-center text-center small text-capitalize mt-5 font-weight-bold"><i style="font-size: large;" class="fa fa-chevron-circle-right text-light" aria-hidden="true"></i> same great quality.new lower prices</p>
+        </div>
+        <div class="card bg-light">
+            <img width="100%" height="73%" src="img/douglas-sheppard-9rYfG8sWRVo-unsplash 1.png" alt="douglasImg">
+            <p class="text-center small text-capitalize mt-5 font-weight-bold"><i style="font-size: large;" class="fa fa-chevron-circle-right text-warning" aria-hidden="true"></i> everyday essentials.high quality affordable</p>
+        </div>
+        <div class="card bg-light">
+            <img width="100%" height="73%" src="img/francesca-tosolini-LL9V0iMpStM-unsplash 1.png" alt="francescaImg">
+            <p class="text-center small text-capitalize mt-5 font-weight-bold"><i style="font-size: large;" class="fa fa-chevron-circle-right text-warning" aria-hidden="true"></i> join the makeover journey</p>
+        </div>
+    </div>
+
+    <div class="third_row d-flex justify-content-center flex-wrap p-3">
+        <div class="content_div w-50">
+            <p class="font-weight-bold text-capitalize h5">why housesale company?</p>
+            <div class="p-3 d-flex flex-wrap">
+                <div>
+                    <img width="50px" src="img/promote 1.png" alt="promoteImg">
+                </div>
+                <div>
+                    <p class="font-weight-bold text-capitalize text-secondary">transparent pricing</p>
+                    <small class="text-capitalize text-secondary">see fixed prices before you book.no hidden charges.</small>
+                </div>
+            </div>
+            <div class="p-3 d-flex flex-wrap">
+                <div>
+                    <img width="50px" src="img/chat-group 1.png" alt="chatgroupImg">
+                </div>
+                <div>
+                    <p class="font-weight-bold text-capitalize text-secondary">experts only</p>
+                <small class="text-capitalize text-secondary">our professionals are well trained and have on-job expertise.</small>
+                </div>
+            </div>
+            <div class="p-3 d-flex flex-wrap">
+                <div>
+                    <img width="50px" src="img/chat 1.png" alt="chatImg">
+                </div>
+                <div>
+                    <p class="font-weight-bold text-capitalize text-secondary">fully equipped</p>
+                <small class="text-capitalize text-secondary">we bring everything needed to get the job done well.</small>
+                </div>
+            </div>
+        </div>
+        <div class="image_div card">
+            <img width="100%" height="100%" src="img/bernard-hermant-CLKGGwIBTaY-unsplash 1.png" alt="bernardImg">
+        </div>
+    </div>
+
+    <div class="fourth_row card">
+        <div class="m-auto">
+            <p class="text-capitalize font-weight-bold h5">Book professionals from your phone</p>
+            <small class="text-secondary h6">Enter your mobile number to get the professionals help</small>
+            <div class="input_div mt-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Send">
+            </div>
+        </div>
+    </div>
+
+    <div class="fivth_row p-5">
+        <p class="h5 font-weight-bold text-center">More ideas and inspiration</p>
+
+        <div class="image_div d-flex justify-content-center flex-wrap mt-5">
+            <div class="card">
+                <img width="100%" height="100%" src="img/bernard-hermant-KqOLr8OiQLU-unsplash 1.png" alt="bernardImg">
+            </div>
+            <div class="card ml-3">
+                <img width="100%" height="100%" src="img/bernard-hermant-CLKGGwIBTaY-unsplash 1.png" alt="bernardImg">
+            </div>
+            <div class="card ml-3">
+                <img width="100%" height="100%" src="img/photo-1523217582562-09d0def993a6 1.png" alt="photoImg">
+            </div>
+            <div class="card ml-3"> 
+                <img width="100%" height="100%" src="img/photo-1479839672679-a46483c0e7c8 1.png" alt="photo">
+            </div>
+        </div>
+
+        <div class="image_div d-flex justify-content-center flex-wrap mt-5">
+            <div class="card">
+                <img width="100%" height="100%" src="img/bernard-hermant-CLKGGwIBTaY-unsplash 1.png" alt="bernardImg">
+            </div>
+            <div class="ml-3 card">
+                <img width="100%" height="100%" src="img/photo-1597047084897-51e81819a499 (1) 1.png" alt="photoImg">
+            </div>
+            <div  class="ml-3 card">
+                <img width="100%" height="100%" src="img/bernard-hermant-M0k4llbRpHU-unsplash 1.png" alt="photoImg">
+            </div>
+            <div class="ml-3 card">
+                <img width="100%" height="100%" src="img/photo-1597047084897-51e81819a499 (1) 1.png" alt="photoImg">
+            </div>
+        </div>
+    </div>
+
+    <div class="sixth_row row">
+        <div class="col-lg-7 p-5">
+            <p class="font-weight-bold h5">More ideas and inspiration</p><br>
+            <small class="text-secondary">Housesale chose to work together with the Lebanese designer Nada Debs. We are thrilled to present this collaboration and the LJUV collection, and we hope that you can see, feel, use the connection between a designer from the Middle East  democratic design.
+                <br><br>
+                Nada Debs is a Levantine designer living and working in Beirut. Her work spans scale and discipline: from product to furniture design to one-off commission across craft, art, fashion, and interiors. Nada grew up in Japan, studied design in Rhode Island School of Design in the US, and has spent significant periods living and traveling the world, finding connections of each of her experiences in all her work. She calls her approach handmade, and heart-made!</small>
+                <br><br>
+            <div>
+                <a class="bg-warning p-3 text-dark text-decoration-none" href="#">More Collection</a>
+            </div>
+        </div>
+
+        <div class="col-5 p-5">
+            <div class="sixth_row_img d-flex flex-wrap">
+                <div class="card">
+                    <img width="100%" height="100%" src="img/jason-briscoe-UV81E0oXXWQ-unsplash 1.png" alt="jasonImg">
+                </div>
+                <div class="card">
+                    <img width="100%" height="100%" src="img/douglas-sheppard-9rYfG8sWRVo-unsplash 1.png" alt="douglasImg">
+                </div>
+                <div class="card">
+                    <img width="100%" height="100%" src="img/photo-1597047084897-51e81819a499 (1) 1.png" alt="photoImg">
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-5">
+            <div class="col-4 p-5 m-auto">
+                <p class="font-weight-bold">Sofas | Beds | Dining | Tv units | Mattresses | Seating | Coffee tables | Wardrobes | Storage | Bookshelves | Shoe racks | Decor| Bathroom | Textiles | Pots & plants | Home electronics | Home improvement | Lighting</p>
+            </div>
+
+            <div class="col-5 p-5 m-auto">
+                <p class="font-weight-bold h5">Explore our furniture & home 
+                   <br> furnishing range</p><br>
+                <p class="small text-secondary"><span class="h6"> IKEA is a global leader in life at home.</span><br><br>
+
+                    Whether you just moved into a new home or looking to revamp your current one, we at IKEA are here to inspire you with affordable home furniture solutions, there is a piece of furniture to every corner of your home. Create a home that is perfect for you.
+                    
+                    Shopping at IKEA is a bit different and exciting compared to your shopping at an everyday retail. It is about experiencing solutions first hand and getting to know ideas and inspirations that can fit perfectly into your home. That’s why, we offer more than 7500 products, solutions at our store along with home furnishing ideas and services for you to explore.
+                    
+                    When you visit IKEA store, make yourself at home in our many room settings in the store. Squeeze the upholsteries, feel the oriental rugs, try the sofa beds and open the cabinets to feel the quality. On the price tag, you’ll find all you need to know about a product, including where in the store you can pick it up.
+                    
+                    Since most IKEA furniture is flat-packed, they are quite easy to bring home when you buy from the store.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="p-5">
+    <div class="ml-5">
+        <a href="#">Delivery Service</a>
+        <a href="#">Assembly Service</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Near Me</a>
+        <a href="#">Careers</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <hr>
+
+    <div>
+        <p class="ml-5 text-light h5 font-weight-bold">Serving in</p><br>
+        <p class="ml-5 text-light h6 font-weight-bold">Australia</p>
+        <div class="ml-5">
+        <a href="#">Sydney</a>
+        <a href="#">Albury</a>
+        <a href="#">Adelaide </a>
+        <a href="#">Darwin</a>
+        <a href="#">Melbourne</a>
+        <a href="#">Queensland</a>
+        <a href="#">Hobart</a>
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        <p class="ml-5 text-light h6 font-weight-bold">UAE</p>
+        <div class="ml-5">
+        <a href="#">Dubai</a>
+        <a href="#">Abu Dhabi</a>
+        <a href="#">Sharjah</a>
+        <a href="#">Ajman</a>
+        <a href="#">Al Ain</a>
+        </div>
+    </div>
+    <br>
+
+    <div>
+        <p class="ml-5 text-light h6 font-weight-bold">Maxico</p>
+        <div class="ml-5">
+        <a href="#">Ecatepec</a>
+        <a href="#">Mexico City</a>
+        <a href="#">Guadalajara</a>
+        <a href="#">Puebla City</a>
+        <a href="#">Ciudad Juárez</a>
+    </div>
+
+    </div>
+    <hr class="">
+
+    <div class="d-flex flex-wrap justify-content-around mt-3">
+        <p class="text-uppercase text-light font-weight-bold small">hous<span class="text-warning">esale</span></p>
+        <p class="text-light small">© 2020 Housesale Technologies Ltd.</p>
+        <p class="text-light small">1760  Dancing Dove Lane, New York, USA</p>
+        <p class="text-light small">sales@housesales.com</p>
+        <img src="img/category_7f907eb0 1.png" alt="categoryImg">
+        <img src="img/category_7f741d10 1.png" alt="categoryImg">
+    </div>
+</footer>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="jquery-3.2.1.slim.min.js"></script>
+</body>
+</html>
